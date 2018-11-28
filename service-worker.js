@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/bartosz-paternoga/mobilenet_tfjs-browser/precache-manifest.9db6ed5593560d0be9c66a7516bd7d2b.js"
+  "/mobilenet_tfjs-browser/precache-manifest.7eda3a007a59613ec040f59fc1adb3bd.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/bartosz-paternoga/mobilenet_tfjs-browser/index.html", {
+workbox.routing.registerNavigationRoute("/mobilenet_tfjs-browser/index.html", {
   
   blacklist: [/^\/_/,/\/[^\/]+\.[^\/]+$/],
 });
